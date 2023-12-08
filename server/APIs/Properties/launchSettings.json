@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49067",
+      "sslPort": 44324
+    }
+  },
+  "profiles": {
+    "Development": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7047;http://localhost:5173",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "dev"
+      }
+    },
+    "Staging": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7047;http://localhost:5173",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "sta"
+      }
+    },
+    "Production": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7047;http://localhost:5173",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "prod"
+      }
+    }
+  }
+}
